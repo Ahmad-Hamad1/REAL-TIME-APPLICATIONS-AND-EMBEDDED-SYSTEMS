@@ -1,0 +1,65 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Mon Jan 03 17:36:34 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x000004    program   0x0000c8
+                   .cinit    romdata   0x001800    program   0x000004
+    .config_2007_SOURCE.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000067      
+                            0x001800    0x001801      
+                            0x002007    0x002007      
+            104 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000043    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    carry   0x000024    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                     done   0x000063    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    donee   0x000067    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                      enn   0x00002c    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    first   0x00004e    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                fun_delay   0x00002f    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                     loop   0x00001e    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop1   0x00003a    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop2   0x000038    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop3   0x000036    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop5   0x000032    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                 no_carry   0x000028    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                   second   0x000059    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    start   0x000005    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000005    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                     loop   0x00001e    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    carry   0x000024    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                 no_carry   0x000028    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                      enn   0x00002c    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                fun_delay   0x00002f    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop5   0x000032    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop3   0x000036    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop2   0x000038    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    loop1   0x00003a    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                      ISR   0x000043    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    first   0x00004e    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                   second   0x000059    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                     done   0x000063    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+                    donee   0x000067    program     static C:\Users\user\Desktop\Project 4 PIC Microcontroller\source.asm
+
+
